@@ -1,10 +1,7 @@
-var button = document.getElementById("boton");
-var option = document.getElementById("op");
 var header = document.getElementById("head");
-var main = document.getElementById("event");
-var pantalla = window.matchMedia("screen and (max-width: 425px)");
 var presi = document.getElementById("pressiona");
 var state = 0;
+var pantalla = window.matchMedia("screen and (max-width: 425px)");
 
 pantalla.addEventListener('change', cambio);
 
