@@ -5,7 +5,7 @@ var main = document.getElementById("event");
 var pantalla = window.matchMedia("screen and (max-width: 425px)");
 var state = 0;
 
-pantalla.addListener(cambio);
+pantalla.addEventListener('change', cambio);
 
 function cambio(evento) {
     if (evento.matches) {
